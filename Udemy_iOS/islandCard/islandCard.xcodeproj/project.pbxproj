@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF5FEB66284751A7004A3D5D /* LikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF5FEB65284751A7004A3D5D /* LikeView.swift */; };
 		BFAC60F3284303FD0067C804 /* islandCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC60F2284303FD0067C804 /* islandCardApp.swift */; };
 		BFAC60F5284303FD0067C804 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC60F4284303FD0067C804 /* ContentView.swift */; };
 		BFAC60F7284303FE0067C804 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAC60F6284303FE0067C804 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF5FEB65284751A7004A3D5D /* LikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeView.swift; sourceTree = "<group>"; };
 		BFAC60EF284303FD0067C804 /* islandCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = islandCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFAC60F2284303FD0067C804 /* islandCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = islandCardApp.swift; sourceTree = "<group>"; };
 		BFAC60F4284303FD0067C804 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -37,6 +39,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF5FEB642847517C004A3D5D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BFAC60F4284303FD0067C804 /* ContentView.swift */,
+				BFECB586284364D30023D4E1 /* InfoView.swift */,
+				BF5FEB65284751A7004A3D5D /* LikeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		BFAC60E6284303FD0067C804 = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +71,7 @@
 				BFAC61032843086D0067C804 /* Info.plist */,
 				BFAC6100284307860067C804 /* fonts */,
 				BFAC60F2284303FD0067C804 /* islandCardApp.swift */,
-				BFAC60F4284303FD0067C804 /* ContentView.swift */,
-				BFECB586284364D30023D4E1 /* InfoView.swift */,
+				BF5FEB642847517C004A3D5D /* Views */,
 				BFAC60F6284303FE0067C804 /* Assets.xcassets */,
 				BFAC60F8284303FE0067C804 /* Preview Content */,
 			);
@@ -155,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFAC60F5284303FD0067C804 /* ContentView.swift in Sources */,
+				BF5FEB66284751A7004A3D5D /* LikeView.swift in Sources */,
 				BFECB587284364D30023D4E1 /* InfoView.swift in Sources */,
 				BFAC60F3284303FD0067C804 /* islandCardApp.swift in Sources */,
 			);
